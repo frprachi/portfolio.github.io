@@ -372,12 +372,12 @@ heading{
     margin-bottom: 3rem;
   }
   .portfolio-container{
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,2fr);
   }
   }
   @media (max-width:617px){
     .portfolio-container{
-      grid-template-columns: 1fr;
+      grid-template-columns: 2fr;
     }
   }
   @media (max-width:450px){
